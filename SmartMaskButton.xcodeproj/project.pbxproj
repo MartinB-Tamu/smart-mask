@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FE171A76C1C072952564AE /* Pods_SmartMaskButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96872460CB2AE7B36640387A /* Pods_SmartMaskButton.framework */; };
+		6B978B34253A43060025151F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B33253A43060025151F /* AppDelegate.swift */; };
+		6B978B36253A43060025151F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B35253A43060025151F /* SceneDelegate.swift */; };
+		6B978B38253A43060025151F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B37253A43060025151F /* ViewController.swift */; };
+		6B978B3B253A43060025151F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B978B39253A43060025151F /* Main.storyboard */; };
+		6B978B3D253A43090025151F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B978B3C253A43090025151F /* Assets.xcassets */; };
+		6B978B40253A43090025151F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B978B3E253A43090025151F /* LaunchScreen.storyboard */; };
+		6B978B4B253A43090025151F /* SmartMaskButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B4A253A43090025151F /* SmartMaskButtonTests.swift */; };
+		6B978B56253A43090025151F /* SmartMaskButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B55253A43090025151F /* SmartMaskButtonUITests.swift */; };
+		6B978B64253B63E00025151F /* MaskFittingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B63253B63E00025151F /* MaskFittingViewController.swift */; };
+		6B978B66253B699D0025151F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B978B65253B699D0025151F /* AboutViewController.swift */; };
+		86F9FE2A3063268208153E65 /* Pods_SmartMaskButton_SmartMaskButtonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46E3C957B433F7612C31315 /* Pods_SmartMaskButton_SmartMaskButtonUITests.framework */; };
+		D63B6E1AC3AFBB02C325A1CE /* Pods_SmartMaskButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7D9975CB5EAA0DCD187285 /* Pods_SmartMaskButtonTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B978B47253A43090025151F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B978B28253A43060025151F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B978B2F253A43060025151F;
+			remoteInfo = SmartMaskButton;
+		};
+		6B978B52253A43090025151F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B978B28253A43060025151F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B978B2F253A43060025151F;
+			remoteInfo = SmartMaskButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062E045836474298485ECD0B /* Pods-SmartMaskButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButtonTests.release.xcconfig"; path = "Target Support Files/Pods-SmartMaskButtonTests/Pods-SmartMaskButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B978B30253A43060025151F /* SmartMaskButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMaskButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B978B33253A43060025151F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B978B35253A43060025151F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B978B37253A43060025151F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B978B3A253A43060025151F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B978B3C253A43090025151F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B978B3F253A43090025151F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B978B41253A43090025151F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B978B46253A43090025151F /* SmartMaskButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMaskButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B978B4A253A43090025151F /* SmartMaskButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMaskButtonTests.swift; sourceTree = "<group>"; };
+		6B978B4C253A43090025151F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B978B51253A43090025151F /* SmartMaskButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMaskButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B978B55253A43090025151F /* SmartMaskButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMaskButtonUITests.swift; sourceTree = "<group>"; };
+		6B978B57253A43090025151F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B978B63253B63E00025151F /* MaskFittingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskFittingViewController.swift; sourceTree = "<group>"; };
+		6B978B65253B699D0025151F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		83DDA7FF66E09EE55CBE1E15 /* Pods-SmartMaskButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButton.release.xcconfig"; path = "Target Support Files/Pods-SmartMaskButton/Pods-SmartMaskButton.release.xcconfig"; sourceTree = "<group>"; };
+		8D3E2D7026580BA2F51E2E97 /* Pods-SmartMaskButton-SmartMaskButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButton-SmartMaskButtonUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMaskButton-SmartMaskButtonUITests/Pods-SmartMaskButton-SmartMaskButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96872460CB2AE7B36640387A /* Pods_SmartMaskButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMaskButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46E3C957B433F7612C31315 /* Pods_SmartMaskButton_SmartMaskButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMaskButton_SmartMaskButtonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FC512D9371282633667B69 /* Pods-SmartMaskButton-SmartMaskButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButton-SmartMaskButtonUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartMaskButton-SmartMaskButtonUITests/Pods-SmartMaskButton-SmartMaskButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEF450CEB110A2424EF453D4 /* Pods-SmartMaskButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButtonTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMaskButtonTests/Pods-SmartMaskButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD4454579F4EC86D08D2C13 /* Pods-SmartMaskButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMaskButton.debug.xcconfig"; path = "Target Support Files/Pods-SmartMaskButton/Pods-SmartMaskButton.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7D9975CB5EAA0DCD187285 /* Pods_SmartMaskButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMaskButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B978B2D253A43060025151F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE171A76C1C072952564AE /* Pods_SmartMaskButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B43253A43090025151F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63B6E1AC3AFBB02C325A1CE /* Pods_SmartMaskButtonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B4E253A43090025151F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9FE2A3063268208153E65 /* Pods_SmartMaskButton_SmartMaskButtonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B978B27253A43060025151F = {
+			isa = PBXGroup;
+			children = (
+				6B978B32253A43060025151F /* SmartMaskButton */,
+				6B978B49253A43090025151F /* SmartMaskButtonTests */,
+				6B978B54253A43090025151F /* SmartMaskButtonUITests */,
+				6B978B31253A43060025151F /* Products */,
+				8226EF31672138EC87C8AA47 /* Pods */,
+				BC5CB107B000E2C342D18121 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B978B31253A43060025151F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B978B30253A43060025151F /* SmartMaskButton.app */,
+				6B978B46253A43090025151F /* SmartMaskButtonTests.xctest */,
+				6B978B51253A43090025151F /* SmartMaskButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B978B32253A43060025151F /* SmartMaskButton */ = {
+			isa = PBXGroup;
+			children = (
+				6B978B33253A43060025151F /* AppDelegate.swift */,
+				6B978B35253A43060025151F /* SceneDelegate.swift */,
+				6B978B37253A43060025151F /* ViewController.swift */,
+				6B978B63253B63E00025151F /* MaskFittingViewController.swift */,
+				6B978B65253B699D0025151F /* AboutViewController.swift */,
+				6B978B39253A43060025151F /* Main.storyboard */,
+				6B978B3C253A43090025151F /* Assets.xcassets */,
+				6B978B3E253A43090025151F /* LaunchScreen.storyboard */,
+				6B978B41253A43090025151F /* Info.plist */,
+			);
+			path = SmartMaskButton;
+			sourceTree = "<group>";
+		};
+		6B978B49253A43090025151F /* SmartMaskButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B978B4A253A43090025151F /* SmartMaskButtonTests.swift */,
+				6B978B4C253A43090025151F /* Info.plist */,
+			);
+			path = SmartMaskButtonTests;
+			sourceTree = "<group>";
+		};
+		6B978B54253A43090025151F /* SmartMaskButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B978B55253A43090025151F /* SmartMaskButtonUITests.swift */,
+				6B978B57253A43090025151F /* Info.plist */,
+			);
+			path = SmartMaskButtonUITests;
+			sourceTree = "<group>";
+		};
+		8226EF31672138EC87C8AA47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4454579F4EC86D08D2C13 /* Pods-SmartMaskButton.debug.xcconfig */,
+				83DDA7FF66E09EE55CBE1E15 /* Pods-SmartMaskButton.release.xcconfig */,
+				8D3E2D7026580BA2F51E2E97 /* Pods-SmartMaskButton-SmartMaskButtonUITests.debug.xcconfig */,
+				A7FC512D9371282633667B69 /* Pods-SmartMaskButton-SmartMaskButtonUITests.release.xcconfig */,
+				AEF450CEB110A2424EF453D4 /* Pods-SmartMaskButtonTests.debug.xcconfig */,
+				062E045836474298485ECD0B /* Pods-SmartMaskButtonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC5CB107B000E2C342D18121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96872460CB2AE7B36640387A /* Pods_SmartMaskButton.framework */,
+				A46E3C957B433F7612C31315 /* Pods_SmartMaskButton_SmartMaskButtonUITests.framework */,
+				FD7D9975CB5EAA0DCD187285 /* Pods_SmartMaskButtonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B978B2F253A43060025151F /* SmartMaskButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B978B5A253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButton" */;
+			buildPhases = (
+				9C966C4D5BD108C0B6F314A1 /* [CP] Check Pods Manifest.lock */,
+				6B978B2C253A43060025151F /* Sources */,
+				6B978B2D253A43060025151F /* Frameworks */,
+				6B978B2E253A43060025151F /* Resources */,
+				53E55C71462FE1F3EB9CEF65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMaskButton;
+			productName = SmartMaskButton;
+			productReference = 6B978B30253A43060025151F /* SmartMaskButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B978B45253A43090025151F /* SmartMaskButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B978B5D253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButtonTests" */;
+			buildPhases = (
+				77EBBB48BEB9024B490708CE /* [CP] Check Pods Manifest.lock */,
+				6B978B42253A43090025151F /* Sources */,
+				6B978B43253A43090025151F /* Frameworks */,
+				6B978B44253A43090025151F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B978B48253A43090025151F /* PBXTargetDependency */,
+			);
+			name = SmartMaskButtonTests;
+			productName = SmartMaskButtonTests;
+			productReference = 6B978B46253A43090025151F /* SmartMaskButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B978B50253A43090025151F /* SmartMaskButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B978B60253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButtonUITests" */;
+			buildPhases = (
+				7EDB9491B5E450B2EED3F9C6 /* [CP] Check Pods Manifest.lock */,
+				6B978B4D253A43090025151F /* Sources */,
+				6B978B4E253A43090025151F /* Frameworks */,
+				6B978B4F253A43090025151F /* Resources */,
+				3EFD2F1A5173696A0AA0FC4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B978B53253A43090025151F /* PBXTargetDependency */,
+			);
+			name = SmartMaskButtonUITests;
+			productName = SmartMaskButtonUITests;
+			productReference = 6B978B51253A43090025151F /* SmartMaskButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B978B28253A43060025151F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "martin Brown";
+				TargetAttributes = {
+					6B978B2F253A43060025151F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6B978B45253A43090025151F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6B978B2F253A43060025151F;
+					};
+					6B978B50253A43090025151F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6B978B2F253A43060025151F;
+					};
+				};
+			};
+			buildConfigurationList = 6B978B2B253A43060025151F /* Build configuration list for PBXProject "SmartMaskButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B978B27253A43060025151F;
+			productRefGroup = 6B978B31253A43060025151F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B978B2F253A43060025151F /* SmartMaskButton */,
+				6B978B45253A43090025151F /* SmartMaskButtonTests */,
+				6B978B50253A43090025151F /* SmartMaskButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B978B2E253A43060025151F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B978B40253A43090025151F /* LaunchScreen.storyboard in Resources */,
+				6B978B3D253A43090025151F /* Assets.xcassets in Resources */,
+				6B978B3B253A43060025151F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B44253A43090025151F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B4F253A43090025151F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EFD2F1A5173696A0AA0FC4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton-SmartMaskButtonUITests/Pods-SmartMaskButton-SmartMaskButtonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton-SmartMaskButtonUITests/Pods-SmartMaskButton-SmartMaskButtonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton-SmartMaskButtonUITests/Pods-SmartMaskButton-SmartMaskButtonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E55C71462FE1F3EB9CEF65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton/Pods-SmartMaskButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton/Pods-SmartMaskButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartMaskButton/Pods-SmartMaskButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77EBBB48BEB9024B490708CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMaskButtonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDB9491B5E450B2EED3F9C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMaskButton-SmartMaskButtonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C966C4D5BD108C0B6F314A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMaskButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B978B2C253A43060025151F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B978B38253A43060025151F /* ViewController.swift in Sources */,
+				6B978B34253A43060025151F /* AppDelegate.swift in Sources */,
+				6B978B64253B63E00025151F /* MaskFittingViewController.swift in Sources */,
+				6B978B66253B699D0025151F /* AboutViewController.swift in Sources */,
+				6B978B36253A43060025151F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B42253A43090025151F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B978B4B253A43090025151F /* SmartMaskButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B978B4D253A43090025151F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B978B56253A43090025151F /* SmartMaskButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B978B48253A43090025151F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B978B2F253A43060025151F /* SmartMaskButton */;
+			targetProxy = 6B978B47253A43090025151F /* PBXContainerItemProxy */;
+		};
+		6B978B53253A43090025151F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B978B2F253A43060025151F /* SmartMaskButton */;
+			targetProxy = 6B978B52253A43090025151F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B978B39253A43060025151F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B978B3A253A43060025151F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B978B3E253A43090025151F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B978B3F253A43090025151F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B978B58253A43090025151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B978B59253A43090025151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B978B5B253A43090025151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD4454579F4EC86D08D2C13 /* Pods-SmartMaskButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B978B5C253A43090025151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DDA7FF66E09EE55CBE1E15 /* Pods-SmartMaskButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B978B5E253A43090025151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF450CEB110A2424EF453D4 /* Pods-SmartMaskButtonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMaskButton.app/SmartMaskButton";
+			};
+			name = Debug;
+		};
+		6B978B5F253A43090025151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062E045836474298485ECD0B /* Pods-SmartMaskButtonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMaskButton.app/SmartMaskButton";
+			};
+			name = Release;
+		};
+		6B978B61253A43090025151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3E2D7026580BA2F51E2E97 /* Pods-SmartMaskButton-SmartMaskButtonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMaskButton;
+			};
+			name = Debug;
+		};
+		6B978B62253A43090025151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FC512D9371282633667B69 /* Pods-SmartMaskButton-SmartMaskButtonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartMaskButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SmartMaskButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMaskButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B978B2B253A43060025151F /* Build configuration list for PBXProject "SmartMaskButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B978B58253A43090025151F /* Debug */,
+				6B978B59253A43090025151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B978B5A253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B978B5B253A43090025151F /* Debug */,
+				6B978B5C253A43090025151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B978B5D253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B978B5E253A43090025151F /* Debug */,
+				6B978B5F253A43090025151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B978B60253A43090025151F /* Build configuration list for PBXNativeTarget "SmartMaskButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B978B61253A43090025151F /* Debug */,
+				6B978B62253A43090025151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B978B28253A43060025151F /* Project object */;
+}
