@@ -1,15 +1,15 @@
 //
-//  MaskFittingViewController.swift
+//  CalibrateViewController.swift
 //  SmartMaskButton
 //
-//  Created by martin Brown on 10/17/20.
+//  Created by martin Brown on 11/17/20.
 //  Copyright © 2020 martin Brown. All rights reserved.
 //
 
 import UIKit
 
-class MaskFittingViewController: UIViewController {
-    
+class CalibrateViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
